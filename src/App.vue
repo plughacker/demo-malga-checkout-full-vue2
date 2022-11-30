@@ -72,8 +72,8 @@
             },
           ],
         }"
-        @paymentSuccess="handlePaymentSuccess"
-        @paymentFailed="handlePaymentFailed"
+        @transactionSuccess="handlePaymentSuccess"
+        @transactionFailed="handlePaymentFailed"
       ></plug-checkout-full>
     </main>
   </div>
